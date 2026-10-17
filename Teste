@@ -1,0 +1,38 @@
+import tkinter as tk
+from tkinter import ttk, messagebox 
+
+#------------------
+#Configurações
+#------------------
+
+nome = "Michal jackson status"
+altura = 1280
+largura = 720
+
+#DADOS INICIAS
+
+Pais = ["Joe Jackson", "Katherine Jackson"]
+Irmaos = ["Rebbie Jackson", "Jackie Jackson", "Tito Jackson", "Jermaine Jackson", "La Toya Jackson", "Marlon Jackson", "Randy Jackson","Janet Jackson"]
+álbuns = ["Got to Be There", "Ben", "Music & Me", "Forever, Michael", "Off the Wall", "Thriller", "Bad", "Dangerous", "HIStory: Past", "Present and Future, Book I, Invincible"]
+
+#janela
+
+janela = tk.Tk
+janela.title(nome)
+janela.geometry(f"{largura}x{altura}")
+janela.minsize(900, 600)  #Define o tamanho mínimo que a janela pode ter se o usuário tentar redimensioná-la com o mouse
+janela.configure(bg="#181818") #define a cor do background
+
+
+FUNDO = "#181818"
+MENU = "#222222"
+CARD = "#292929"
+TEXTO = "#FFFFFF"
+TEXTO_SECUNDARIO = "#AAAAAA"
+BOTAO = "#3B82F6"
+BOTAO_HOVER = "#2563EB"
+
+
+# =========================
+# FUNÇÕES
+# =========================
